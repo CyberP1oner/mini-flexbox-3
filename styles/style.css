@@ -12,8 +12,8 @@ body {
 .container {
 	border: 10px solid #6c38cc;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+	flex-flow: row wrap;
+	align-items: flex-start;
 }
 
 .item {
@@ -22,12 +22,4 @@ body {
 	text-align: center;
   width: calc(100% / 3);
 	padding: 10px;
-}
-
-.item7 {
-	order: 1;
-}
-
-.item4 {
-	order: 2;
 }
